@@ -1,0 +1,17 @@
+.header 
+    {
+        background: #070a40; /* Color de fondo */
+        background: linear-gradient(to left, #000000, #1f0f6f 30%, #95ecfd 100%, #070a40); 
+        color: #111111;
+        padding: 20px;
+        text-align: center;
+    }
+    
+
+
+
+.header-logo img {
+    display: block; 
+    margin:auto; 
+   
+}

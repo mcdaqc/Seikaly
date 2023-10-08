@@ -1,0 +1,543 @@
+@media only screen and (min-width: 768px){
+	.body_container{
+		max-width: 750px;
+	}
+}
+
+@media only screen and (min-width: 992px){
+	.body_container{
+		max-width: 970px;
+	}
+	.pricing .pricing_item {
+		background-color: #fff;
+		border-radius: 4px;
+		-webkit-box-shadow: 0px 10px 14px -2px rgba(69,6,20,0.04);
+		-moz-box-shadow: 0px 10px 14px -2px rgba(69,6,20,0.04);
+		box-shadow: 0px 10px 14px -2px rgba(69,6,20,0.04);
+	}
+	/*.pricing .pricing_item > div{
+		height: 250px;
+	}
+	.pricing .pricing_des > div{
+		height: 170px;
+		overflow-y: auto;
+	}*/
+}
+
+@media only screen and (min-width: 1200px){
+	.body_container{
+		max-width: 1170px;
+	}
+}
+
+@media only screen and (min-width: 1281px) {
+	.header_two button{
+		display: none;
+	}
+}
+
+@media only screen and (max-width: 1680px){
+	.header_two .left_menu{
+	    max-height: 400px;
+	    margin: 0;
+	}
+	.header_two .left_menu a{
+		padding: 0px 30px;
+	}
+}
+
+@media only screen and (max-width: 1380px) and (min-width: 1281px) {
+	.body_container{
+		padding: 0px 50px;
+	}
+	.header_two .header_image img{
+		height: 150px;
+		width: 150px;
+	}
+	.header_two .left_menu li{
+		text-align: center;
+	}
+	.header_two .menu_icon{
+		margin: 0;
+	    float: initial;
+	    line-height: 24px;
+	}
+	.header_two .menu_content{
+		display: block;
+	}
+	.about_two .about_job ul > li{
+		height: 140px !important;
+		width: 135px !important;
+		padding: 30px 0px;
+	}
+	.about_two .about_job ul > li > p{
+		font-size: 16px;
+	}
+	.about_two .about_details ul > li > p{
+		min-width: 120px;
+	}
+	.about_two .about_skills .progress_title{
+		width: 100px;
+	}
+	.portfolio_two .portfolio_item{
+		width: 32.3%;
+	}
+	.services .service_item{
+		text-align: center;
+	}
+	.services .service_icon{
+		float: none;
+	}
+	.services .service_details {
+		display: block;
+	}
+	.contact .width_h {
+	    width: 48%;
+	}
+}
+
+@media only screen and (max-width: 1280px) {
+	.header_two{
+		width: 300px;
+		left: -300px;
+		transition: 1s;
+	}
+	.header_two.open{
+		left: 0;
+	}
+	.main_content{
+		width: 100%;
+		float: initial;
+	}
+}
+
+@media only screen and (max-width: 1199px) and (min-width: 992px) {
+	.about .about_job ul > li{
+		height: 150px;
+		width: 145px;
+		padding: 30px 0px;
+	}
+	.about .about_details ul > li > p{
+		min-width: 120px;
+	}
+	.about .about_skills .progress_title{
+		width: 100px;
+	}
+	.services .service_item{
+		text-align: center;
+	}
+	.services .service_icon{
+		float: none;
+	}
+	.services .service_details {
+		display: block;
+	}
+	.contact form{
+		padding: 30px;
+		width: 60%;
+	}
+	.contact .width_h:nth-child(1){
+		width: 47.6%;
+	}
+}
+
+@media only screen and (max-width: 1199px) {
+	.resume .experiences.left, .resume .experiences.right{
+	    margin: 0;
+	}
+	.portfolio .portfolio_item{
+		width: 32%;
+	}
+}
+
+@media only screen and (max-width: 991px) and (min-width: 768px){
+	.navbar-header{
+		width: 100%;
+		text-align: center;
+	}
+	.header_menu .navbar-brand{
+		display: inline-block;
+		float: none;
+		padding-bottom: 15px;
+	}
+	.navbar-nav{
+	    float: left;
+	}
+	.navbar-nav>li>a{
+		padding: 15px 12px 36px;
+	}
+	.navbar-nav>li:nth-child(1) a{
+	    padding-left: 0;
+	}
+	.banner.first {
+	    margin-top: 145px;
+	}
+	.blog .content{
+		padding: 30px;
+	}
+}
+
+@media only screen and (max-width: 991px){
+	.banner .banner_content h4{
+		font-size: 30px;
+	}
+	.banner .banner_content h2{
+		font-size: 70px;
+		line-height: 70px;
+	}
+	.banner .banner_content p{
+		font-size: 30px;
+		margin-bottom: 40px;
+	}
+	.about .about_skills .progress{
+		width: 460px;
+	}
+	.resume .experiences{
+		margin-bottom: 50px !important;
+	}
+	.portfolio .portfolio_item{
+		width: 31.9%;
+	}
+	.portfolio .portfolio_menu li{
+		margin-left: 15px;
+	}
+	.portfolio .section_header h2{
+		font-size: 36px;
+	}
+	.pricing .pricing_item{
+		border-radius: 10px;
+	}
+	.pricing .pricing_item > div{
+		width: 100%;
+	    position: inherit;
+	    border-radius: 0;
+		border-bottom: 1px solid #ebebeb;
+	}
+	.contact .contact_info{
+		margin-bottom: 50px;
+	}
+	.contact form{
+		position: initial;
+		width: 100%;
+		box-shadow: none;
+		padding: 0;
+	}
+	.contact .width_h{
+		width: 100%;
+	}
+	.post_comment {
+	    margin-bottom: 100px;
+	}
+}
+
+@media only screen and (max-width: 767px) {
+	.header_menu .navbar-brand{
+		padding: 35px 15px;
+	}
+	.header_menu .navbar-toggle{
+		padding: 23px 0px;
+	}
+	.header_menu .navbar-toggle .icon-bar{
+		background-color: #979797;
+		-webkit-transition: .5s;
+		transition: .5s;
+	}
+	.header_menu .navbar-toggle.collapsed .first{
+		transform: rotate(0) translate(0px,0px);
+	}
+	.header_menu .navbar-toggle.collapsed .second{
+		opacity: 1;
+	}
+	.header_menu .navbar-toggle.collapsed .third{
+		transform: rotate(0) translate(0px,0px);
+	}
+	.header_menu .navbar-toggle .first{
+		transform: rotate(45deg) translate(4px, 5px);
+	}
+	.header_menu .navbar-toggle .second{
+		opacity: 0;
+	}
+	.header_menu .navbar-toggle .third{
+		transform: rotate(-45deg) translate(4px, -5px);
+	}
+	.navbar-nav{
+		float: none;
+		margin-bottom: 100px;
+	}
+	.navbar-nav>li {
+		border-bottom: 1px solid #979797;
+		overflow: hidden;
+	}
+	.navbar-nav>li>a{
+		padding: 15px;
+	}
+	.navbar-nav>li:nth-last-child(1) a{
+	    border: none;
+	}
+	.navbar-nav>li>a:hover{
+		background-color: #55595d;
+		color: #fff;
+	}
+	.navbar-nav> .active a{
+		background-color: #009bde;
+		color: #fff;
+	}
+	.navbar-collapse{
+		background-color: #fff;
+		max-height:300px
+	}
+	.portfolio .section_header{
+		display: block;
+	}
+	.portfolio .section_header h2{
+		margin-bottom: 30px;
+	}
+	.portfolio .section_header h2:before{
+		left: 50%;
+	}
+	.portfolio .portfolio_menu{
+		float: initial;
+		margin: 0px 0px 50px;
+		text-align: center;
+	}
+	.portfolio .portfolio_item{
+		width: 48%;
+	}
+	.services .service_item{
+		text-align: center;
+	}
+	.services .service_icon{
+		float: none;
+	}
+	.services .service_details {
+		display: block;
+	}
+	.header_two .header_image {
+	    margin: 30px 0px;
+	}
+	.header_two .header_image img{
+		height: 150px;
+		width: 150px;
+	}
+	.single_post .post_content{
+		padding: 20px;
+	}
+	.post_comment ul li ul {
+	    margin-left: 50px;
+	}
+
+	.error-page .error .error-inner .error-opps {
+	    width: 80px;
+	    height: 80px;
+	    border: 6px solid #fafafa;
+	}
+	.error-page .error .error-inner .error-opps:before {
+	    width: 50px;
+	    height: 50px;
+	    margin-left: -25px;
+	    margin-top: -25px;
+	}
+	.error-page .error .error-inner .error-opps .error-opps-inner {
+	    font-size: 22px;
+	    line-height: 130px;
+	}
+	.error-page .error .error-inner .error-number {
+	    font-size: 100px;
+	    line-height: 100px;
+	}
+	.error-page .error .error-inner .error-number.left {
+	    left: -40px;
+	}
+	.error-page .error .error-inner .error-number.right {
+	    right: -40px;
+	}
+	.error-page .error .error-inner h3 {
+            font-size: 24px;
+	}
+	.error-page .error .error-inner p {
+            font-size: 13px;
+	}
+	.error-page .error .error-inner .custom-btn {
+            font-size: 12px;
+	}
+	
+	.navbar-brand-text{
+		margin-left: 10px;
+	}
+	.post_comment .comment .avatar {
+        width: 55px;
+      }
+      .post_comment ul li ul {
+            margin-left: 25px ;
+      } 
+	.navbar-nav > li .sub-menu {
+		position: static;
+		width: 100%;
+		visibility: visible;
+		opacity: 1;
+		border: none;
+    	box-shadow: none;
+    	background-color: #FFF;
+	}
+	.navbar-nav > li .sub-menu li{ 
+		background-color: #f9f7f7;
+	}
+	.navbar-nav > li .sub-menu ul li{
+		background-color: #f4f2f2;
+	}
+	.navbar-nav > li .sub-menu ul ul li{
+		background-color: #eaeaea;
+	}
+	.navbar-nav > li .sub-menu ul ul ul li{
+		background-color: #e5e3e3;
+	}
+	.navbar-nav > li > .sub-menu li a {
+		color: #000;
+	}
+	.sub-menu li a {
+		color: #55575d;
+	}
+	.navbar-nav .sub-menu {
+		padding-left: 20px !important;
+	}
+
+	.navbar-collapse.in {
+	    overflow-y: scroll;
+	}
+	.navbar-nav {
+		margin: 0;
+	}
+	.nav .open>a, .nav .open>a:focus, .nav .open>a:hover, .navbar-nav>li>a:hover {
+		background: #FFF;
+		color: #55575d ;
+	}
+	span.caret {
+		display: none;
+	}
+
+}
+
+@media only screen and (max-width: 680px) {
+	.banner .banner_content h4{
+		font-size: 26px;
+		line-height: 36px;
+	}
+	.banner .banner_content h2{
+		font-size: 50px;
+		line-height: 50px;
+	}
+	.banner .banner_content p{
+		font-size: 26px;
+		margin-bottom: 30px;
+	}
+	.about .about_details ul > li > p{
+		min-width: 120px;
+	}
+	.about .about_job ul > li{
+		height: 150px;
+		width: 145px;
+		padding: 30px 0px;
+	}
+	.about .about_skills .progress_title{
+		width: 100%;
+	}
+	.about .about_skills .progress{
+		width: 100%;
+		margin: 0;
+	}
+	.blog .content{
+		padding: 30px;
+	}
+	.contact .contact_me{
+		padding: 15px;
+	}
+}
+
+@media only screen and (max-width: 480px) {
+	.section_header h2{
+		font-size: 40px;
+		line-height: 60px;
+	}
+	.banner .banner_content h4{
+		font-size: 18px;
+		line-height: 24px;
+	}
+	.banner .banner_content h2{
+		font-size: 30px;
+		line-height: 40px;
+	}
+	.banner .banner_content p{
+		font-size: 18px;
+		line-height: 24px;
+		margin-bottom: 20px;
+	}
+	.about .about_job ul > li{
+		height: 170px;
+    	width: 100%;
+	}
+	.resume .experience p span{
+		display: block;
+	}
+	.resume .resume_items h3{
+		font-size: 20px;
+		line-height: 60px;
+	}
+	.resume .experience h4{
+		font-size: 22px;
+	}
+	.resume .experience p{
+		font-size: 16px;
+	}
+	.resume .experience p span{
+		font-size: 18px;
+	}
+	.portfolio .portfolio_item{
+		width: 100%;
+		margin: 0px auto 15px;
+	}
+	.blog .content{
+		padding: 20px;
+	}
+	.single_post .post_content h3{
+		font-size: 28px;
+		line-height: 36px;
+	}
+	.single_post .post_content .post_tags{
+		float: initial;
+		margin-bottom: 15px;
+	}
+	.single_post .post_content .post_share{
+		float: initial;
+	}
+	.post_comment ul li ul{
+		margin-left: 20px;
+	}
+	.post_comment .comment_input{
+		width: 100% !important;
+	}
+	.pricing .pricing_item > div{
+		padding: 30px 15px;
+	}
+	.header_two .left_menu{
+	    max-height: 250px;
+	}
+	.header_two{
+		width: 250px;
+		left: -250px;
+	}
+	.post_comment .comment .avatar {
+	width: 40px;
+	}
+	.post_comment ul li ul ul{
+		margin-left: 10px;
+	}
+	.admin-bar .header_menu {
+		top: 48px;
+	}
+	.post_comment .profile-image {
+	margin-right: 16px;
+	}
+	.admin-bar .header_menu.mfix {
+		top: 0 !important;
+	}
+}
