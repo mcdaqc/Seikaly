@@ -1,0 +1,59 @@
+[
+  {
+    "name": "W3J NFT #1",
+    "description": "W3J NFT Collection for NFT 101 Course",
+    "image": "https://gateway.pinata.cloud/ipfs/QmS3SQ7R4Pj6VyrBaXSrfWJEjDjKdmryUDkcYYBrTXJDBc/1.png",
+    "dna": "e3b866b77161b716c5303b3d287822d9b708ae08",
+    "edition": 1,
+    "date": 1666430100704,
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "OrangeFire"
+      },
+      {
+        "trait_type": "Pokemon",
+        "value": "Mewtwo"
+      }
+    ],
+    "compiler": "HashLips Art Engine"
+  },
+  {
+    "name": "W3J NFT #2",
+    "description": "W3J NFT Collection for NFT 101 Course",
+    "image": "https://gateway.pinata.cloud/ipfs/QmS3SQ7R4Pj6VyrBaXSrfWJEjDjKdmryUDkcYYBrTXJDBc/2.png",
+    "dna": "555cb296e956edffc6d72765f71bf74f15a9e86e",
+    "edition": 2,
+    "date": 1666430100852,
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "PurpleFire"
+      },
+      {
+        "trait_type": "Pokemon",
+        "value": "Scyther"
+      }
+    ],
+    "compiler": "HashLips Art Engine"
+  },
+  {
+    "name": "W3J NFT #3",
+    "description": "W3J NFT Collection for NFT 101 Course",
+    "image": "https://gateway.pinata.cloud/ipfs/QmS3SQ7R4Pj6VyrBaXSrfWJEjDjKdmryUDkcYYBrTXJDBc/3.png",
+    "dna": "7499a78ced139e6b4345b75f5b02fa23b3ac2271",
+    "edition": 3,
+    "date": 1666430101011,
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "BlueFire"
+      },
+      {
+        "trait_type": "Pokemon",
+        "value": "Lugia"
+      }
+    ],
+    "compiler": "HashLips Art Engine"
+  }
+]
